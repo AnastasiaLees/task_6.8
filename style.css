@@ -1,0 +1,53 @@
+html body {
+    width: auto;
+    height: 100%;
+    background-color: rgb(225, 243, 250);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+h1 {
+    color: rgb(189, 63, 14);
+    font-size: 4rem;
+    font-family:'Courier New', Courier, monospace
+}
+
+.divlist {
+    width: 100%;
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+    font-size: 25px;
+    padding: 0;
+}
+
+li {
+    margin: 15px;
+    text-align: left;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-shadow: 5px 5px 5px rgba(189, 64, 14, 0.575);
+}
+
+.copyright {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright a {
+    color: black;
+    text-decoration: none;
+}
